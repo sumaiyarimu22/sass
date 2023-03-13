@@ -1,0 +1,21 @@
+// color varibales declaration
+$header-bgcolor: #ffab73;
+$main-bgcolor: #ffd384;
+$footer-bgcolor: #ffaec0;
+
+// browser reset code
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: $header-bgcolor;
+}
+main {
+  background: $main-bgcolor;
+}
+footer {
+  background: $footer-bgcolor;
+}
