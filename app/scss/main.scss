@@ -1,6 +1,5 @@
-@forward "./base/reset";
-@forward "./base/typographic";
-
+@forward "./base/index";
+@use "./util/index";
 // // color varibales declaration
 // $header-bgcolor: #ffab73;
 // $main-bgcolor: #ffd384;
@@ -29,10 +28,10 @@
 // }
 
 header {
-  background: bisque;
   padding: 1rem;
+  background: index.$header-bg;
 }
 main {
-  background: orange;
   padding: 1rem;
+  background: index.$main-bg;
 }
