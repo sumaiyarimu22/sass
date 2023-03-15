@@ -35,3 +35,14 @@ main {
   padding: 1rem;
   background: index.$main-bg;
 }
+//mixin and include
+@mixin para-style {
+  font-size: 1rem;
+  font-weight: bold;
+}
+#about p {
+  @include para-style;
+}
+#education {
+  @include para-style();
+}
